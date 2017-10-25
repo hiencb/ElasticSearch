@@ -14,7 +14,7 @@
         POST get-together/_search?size=20
         ```
 
-        and
+        is equivalent to
 
         ```json
         POST get-together/_search
@@ -25,8 +25,6 @@
           "size": 20
         }
         ```
-
-        are the same.
 
     - `match_all` query can be combined with a filter
 
